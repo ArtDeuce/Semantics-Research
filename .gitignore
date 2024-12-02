@@ -1,0 +1,10 @@
+#Ignore the files and folders with all the articles
+Articles/
+Coding_Part/
+Resources/
+EnWiki.xml
+Sentence_Transformers.ipynb
+.venv/
+Embeddings/
+
+
