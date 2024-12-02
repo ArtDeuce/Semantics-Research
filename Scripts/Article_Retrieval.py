@@ -43,10 +43,18 @@ def AbstractIsValid(AbstractContent):
     return True
 
 # Define file paths as variables
-xml_file_path = "/home/a-baboudjian/Desktop/Semantics Project/EnWiki.xml"
-all_article_data_file_path = "/home/a-baboudjian/Desktop/Semantics Project/AllTheData.txt"
-article_order_file_path = "/home/a-baboudjian/Desktop/Semantics Project/articleOrder.txt"
-articles_directory_path = "/home/a-baboudjian/Desktop/Semantics Project/Articles/"
+# File with thousands of article data
+xml_file_path = "../EnWiki.xml"  
+
+# File where we will store all article abstracts continously
+all_article_data_file_path = "../Data/AllTheData.txt"
+
+# File with all the names of the articles we've retreived and
+# stored (in order)
+article_order_file_path = "../Data/articleOrder.txt"
+
+# Folder that will store all articles as seperate .txt files
+articles_directory_path = "../Articles/"
 
 # Open the XML file and read its content
 with open(xml_file_path, 'r') as f:
