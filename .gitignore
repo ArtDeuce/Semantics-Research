@@ -6,5 +6,5 @@ EnWiki.xml
 Sentence_Transformers.ipynb
 .venv/
 Embeddings/
-
+.env
 
